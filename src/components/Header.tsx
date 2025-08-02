@@ -32,9 +32,11 @@ const Header = () => {
             <button className="md:hidden">
               <Menu className="w-6 h-6" />
             </button>
-            <button className="px-6 py-2 bg-gradient-to-r from-primary to-primary-glow text-white rounded-xl font-medium hover:shadow-lg transition-all duration-300">
-              Emergency
-            </button>
+            <Link to="/emergency">
+              <button className="px-6 py-2 bg-gradient-to-r from-primary to-primary-glow text-white rounded-xl font-medium hover:shadow-lg transition-all duration-300">
+                Emergency
+              </button>
+            </Link>
           </div>
         </div>
       </div>
