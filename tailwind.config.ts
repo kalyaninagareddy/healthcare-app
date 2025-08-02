@@ -26,11 +26,17 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				status: {
+					available: 'hsl(var(--status-available))',
+					busy: 'hsl(var(--status-busy))',
+					offline: 'hsl(var(--status-offline))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
